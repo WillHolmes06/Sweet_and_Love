@@ -9,7 +9,7 @@
 </head>
 
 <body>
-    <main style="border: 1px solid #000;">
+    <main style="border: 0.5px solid #000;">
         <form action="#">
             <label for="cNome"> Nome:</label><br>
             <input autocomplete="off" type="text" size="20" name="tNome" id="cNome" required="required" />
@@ -36,7 +36,7 @@
             <input autocomplete="off" type="number" size="20" name="tTelefone" id="telefone" required="required">
             <br><br>
 
-            <p>Doces</p>
+            <p class="font">Doces</p>
             <input type="checkbox" id="doce1" name="doce1" value="brigadeirogourmet" />
             <label for="doces1">Brigadeiro gourmet</label><br><br>
 
@@ -60,7 +60,7 @@
             <input type="checkbox" id="doce8" name="doce8" value="bombomdenutella" />
             <label for="doce8">Bombom de nutella</label><br><br>
 
-            <p>Salgados</p>
+            <p class="font">Salgados</p>
             <input type="checkbox" id="salgado1" name="salgado1" value="coxinha" />
             <label for="salgado1">Coxinha</label><br><br>
 
@@ -83,7 +83,7 @@
 
             <input type="checkbox" id="salgado8" name="salgado8" value="salgado8" />
             <label for="salgado8">Pão de queijo</label><br><br>
-            <p>Pagamento</p>
+            <p class="font">Pagamento</p>
 
             <input type="radio" id="pagamento" name="pagamento" value="pagamento" />
             <label for="pagamento">Débito</label><br><br>
@@ -93,14 +93,10 @@
             <input type="radio" id="pagamento" name="pagamento" value="pagamento" />
             <label for="pagamento">Pix</label><br><br>
 
-            <label for="pag">Pagamento</label>
-            <select name="pag" id="pag">
-                <option value="Débito">Débito</option>
-                <option value="Crédito">Crédito</option>
-                <option value="Pix">Pix</option>
+            
             </select>
 
-            <p>Observações</p>
+            <p class="font">Observações</p>
             <textarea name="message" rows="10" cols="40" placeholder="Deixe aqui
     
     a sua mensagem!" required> </textarea><br><br>
