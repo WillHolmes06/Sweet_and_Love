@@ -4,20 +4,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="forms.css">
     <title>Projeto grupo</title>
 </head>
 
-<body>
-    <main style="border: 0.5px solid #000;">
+
+
+
+
+
+
+
+
+<body class="container">
+    <header>
+        <h1>Sweet and Love</h1>
+        <nav>
+            <a href="">Home</a><br>
+            <a href="">Doces</a><br>
+            <a href="">Salgados</a>
+        </nav>
+    </header>
+
+    <img src="./img/opcoes-de-doces-para-substituir-o-bem-casado-pao-de-mel-para-casamentos_13_268920-158169604631284.jpeg" class="container">
+    
+
+
+
+
+
+
+    <main style="border-radius: 15px solid #000;">
         <form action="#">
+            <h3>Preencha o formulário abaixo para a sua solicitação de doces e salgados!</h3>
+            
             <label for="cNome"> Nome:</label><br>
             <input autocomplete="off" type="text" size="20" name="tNome" id="cNome" required="required" />
             <br><br>
-            <label for="E-mail"> E-mail:</label><br>
-            <input autocomplete="off" type="text" size="20" name="tE-mail" id="E-mail" required="required"></input>
-            <br><br>
-            <label for="endereço"> Endereço:</label>
+            <div class="input-group">
+                <label for="E-mail" class="input-group_label"> E-mail:</label><br>
+                <input autocomplete="off" type="text" size="20" name="tE-mail" id="E-mail" required="required"></input>
+                <br><br>
+                <label for="endereço"> Endereço:</label>
+            </div>
 
             </label><br><br>
             <input autocompoete="off" type="text" size="20" name="tEndereço" id="endereço" required="required"></input>
@@ -93,7 +122,7 @@
             <input type="radio" id="pagamento" name="pagamento" value="pagamento" />
             <label for="pagamento">Pix</label><br><br>
 
-            
+
             </select>
 
             <p class="font">Observações</p>
@@ -109,6 +138,16 @@
 
         </form>
     </main>
+
+    <footer>
+        <p id="abc   "> &copy;Sweet and Love 2023</p>
+
+        <p>
+            <link rel="shortcut icon" type="imagex/png"
+                href="./images/icon.icoc:\Users\Turma Noite\Documents\.icon\instagram_share_story_connection_communication_icon_189222.ico">
+        </p>
+    </footer>
 </body>
+
 
 </html>
