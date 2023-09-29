@@ -3,6 +3,7 @@ header{
 }
 
 body{
+   
     margin-left: auto;
     margin-right: auto;
     width: 80%;
@@ -19,8 +20,9 @@ body{
 }
 
 .container{
-  max-width: 1280px;
+  max-width: 1380px;
   margin: 0 auto;
+  padding: 0 4%;
 }
 h3{
     font-family:'Outfit',sans-serif; 
@@ -29,15 +31,43 @@ h3{
 }
 
 form{
+    
     background-color: pink;
-    max-width: 2000px;
-    height: 1800px;
+    max-width: 1000px;
+    width:4000px ;
+    height: 2400px;
     padding: 60px;
+    margin: 180px;
     border-radius: 15px;
     
 }
 
+.input-single{
+    position: relative;
+    margin: 10px 0;
+}
 
+.input-single label{
+    position: absolute;
+    left: 0;
+    bottom: 5px;
+    transition: all 0.2s;
+    cursor: text;
+}
+.input{
+    width: 100%;
+    border: 0;
+    border-bottom: 2px solid #ccc;
+    padding: 5px;
+    font-size: 2px;
+    outline: 0;
+}
+form .input-single .input:focus ~ label
+form .input-single .input:valid ~ label{
+    transform: translateY(-24px);
+    font-size: 12px;
+   
+}
 
 
 label{
@@ -57,4 +87,22 @@ footer{
 #abc{
     margin-left: 10px;
 }
+.bnt{
+    width: 100px;
+    text-align: center;
+}
+form input[type=submit]{
+    text-align: center;
+    padding: 10px 40px;
+    border: 0;
+    border-radius: 10px;
+    background-color: #00D9C0;
+    color: #fff;
+    cursor: pointer;
+}
+@media(max-width:768px) {
+    .col {
+    width: 100%;
+    }
+   }
 
