@@ -6,14 +6,22 @@ body {
     border-right: 1px solid;
 }
 
-#logonav{
-    width: 2rem;
-margin-bottom: 40px;
+header{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    align-items: center;
+    background-color: #000;
+    color: #E06C9F;
 }
 
 .a{
-    text-align: start;
+    text-decoration: none;
+    border: 1px solid;
+    border-color: #E06C9F;
+    color: #00D9C0;
 }
+
 
 #imgdoce {
     width: 100%;
@@ -30,7 +38,8 @@ footer {
     text-align: center;
     margin-top: 3rem;
     padding-top: 1rem;
-    background-color: #00D9C0 ;
+    background-color: #000 ;
     border-bottom: 2px solid #000;
     font-weight: bold;
+    color: #E06C9F;
 }
