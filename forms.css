@@ -73,12 +73,8 @@ form{
     font-size: 0.125rem;
     outline: 0rem;
 }
-form .input-single .input:focus ~ label
-form .input-single .input:valid ~ label{
-    transform: translateY(-11.875rem);
-    font-size: 0.75rem;
-   
-}
+
+
 
 
 label{
