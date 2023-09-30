@@ -1,23 +1,36 @@
 header{
-    font-size: 1.5em  ;
+    display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  align-items: center;
+  background-color: #000;
+  color: #e06c9f;
+  height: 8rem;
 }
 
+.a {
+    text-decoration: none;
+    border: 1px solid #00d9c0;
+    color: #00d9c0;
+    padding: 0.5em;
+  }
+
 body{
-   
     margin-left: auto;
     margin-right: auto;
     width: 80%;
-    border-left: 1px;
-    border-right: 1px;
-    box-sizing: border-box;
+    border-left: 1px solid;
+    border-right: 1px solid;
+    box-sizing: border-box; /*Tenta retirar este aqui, o formulário esta passando da porcentagem da tela*/
     font-family: 'Outfit',sans-serif;
-   
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    
-    
 }
+
+#logonav {
+    width: 6em;
+  }
 
 .container{
   max-width: 1380px;
@@ -27,11 +40,9 @@ body{
 h3{
     font-family:'Outfit',sans-serif; 
     font-size: 30px;
-    
 }
 
 form{
-    
     background-color: pink;
     max-width: 1000px;
     width:4000px ;
@@ -78,12 +89,6 @@ p{
     font-size: 1.5em;
 }
 
-footer{
-    background-color: ;
-    text-align: center;
-    
-}
-
 #abc{
     margin-left: 10px;
 }
@@ -100,6 +105,31 @@ form input[type=submit]{
     color: #fff;
     cursor: pointer;
 }
+
+#cabecalho-titulo,
+#footer-titulo {
+  font-size: 2.2em;
+}
+
+#footer-div{
+    display: flex;
+    flex-wrap: wrap;
+    width: 20%;
+}
+
+footer {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #000;
+  border-bottom: 2px solid #000;
+  font-weight: bold;
+  color: #e06c9f;
+  height: 8rem;
+  margin-top: 50px;
+}
+
 @media(max-width:768px) {
     .col {
     width: 100%;
