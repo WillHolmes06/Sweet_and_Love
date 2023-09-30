@@ -37,6 +37,13 @@ body{
   margin: 0 auto;
   padding: 0 4%;
 }
+
+form-container{
+
+}
+
+
+
 h3{
     font-family:'Outfit',sans-serif; 
     font-size: 1.875rem;
@@ -70,15 +77,19 @@ form{
     border: 0;
     border-bottom: 2px solid #ccc;
     padding: 0.3125;
-    font-size: 0.125rem;
+    font-size: 0.5rem;
+    font-size: 1rem;
     outline: 0rem;
 }
 
-
+form .input-single .input:focus ~ label
+form .input-single .input:valid ~ label{
+    transform: translateY(-11.875rem);
+    font-size: 1rem;
 
 
 label{
-    font-size: 15rem;
+    font-size: 1.5em;
 }
 
 p{
