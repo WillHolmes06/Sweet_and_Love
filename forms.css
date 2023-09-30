@@ -40,9 +40,9 @@ body {
     width: 100%;
     height: 30rem;
 }
-h3 {
-    margin-bottom: 1em;
-    font-size: 1.5em;
+h3{
+    font-family:'Outfit',sans-serif; 
+    font-size: 1.875rem;
 }
 
 form {
@@ -68,24 +68,19 @@ form {
 
   cursor: text;
 }
-.input {
-  width: 100%;
-  border: 0;
-  border-bottom: 2px solid #ccc;
-  padding: 0.3125;
-  font-size: 0.125rem;
-  outline: 0rem;
+.input{
+    width: 100%;
+    border: 0;
+    border-bottom: 2px solid #ccc;
+    padding: 0.3125;
+    font-size: 0.125rem;
+    outline: 0rem;
 }
-form
-  .input-single
-  .input:focus
-  ~ label
-  form
-  .input-single
-  .input:valid
-  ~ label {
-  transform: translateY(-11.875rem);
-  font-size: 0.75rem;
+form .input-single .input:focus ~ label
+form .input-single .input:valid ~ label{
+    transform: translateY(-11.875rem);
+    font-size: 0.75rem;
+   
 }
 
 label {
