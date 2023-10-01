@@ -15,7 +15,7 @@ header {
   justify-items: center;
   align-items: center;
   background-color: #0D0106;
-  color: #FFFF;
+  color: #e06c9f;
   height: 8rem;
   border-bottom: 2px solid black;
 }
@@ -24,7 +24,7 @@ header {
 }
 #a {
   text-decoration: none;
-  border: 1px solid blue;
+  border: 1px solid #00D9C0;
   color: #FFFF;
   padding: 0.5em
 }
@@ -33,13 +33,15 @@ header {
     display: flex;
     justify-content: center;
     align-items:center;
+    margin-top: 0.5em;
 }
 #l1{
     list-style: none;
+   padding-right: 5rem;
 }
 #l2 {
     list-style: none;
-    margin-left: 30rem;
+    margin-left: 15rem;
 }
 #imghome {
     width: 100%;
