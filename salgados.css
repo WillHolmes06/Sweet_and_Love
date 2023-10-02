@@ -26,6 +26,13 @@ header {
   height: 8rem;
 }
 
+.a {
+  text-decoration: none;
+  border: 1px solid #00d9c0;
+  color: #00d9c0;
+  padding: 0.5em;
+}
+
 #footer-div {
   display: flex;
   flex-wrap: wrap;
