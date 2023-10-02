@@ -8,6 +8,7 @@ body {
   width: 80%;
   border-left: 1px solid black;
   border-right: 1px solid black;
+  border-bottom: 2px solid black;
 }
 header {
   display: grid;
@@ -80,6 +81,7 @@ footer {
     justify-content: space-around;
     align-items: center;
     background-color: #000;
+    border-top: 2px solid #000;
     border-bottom: 2px solid #000;
     font-weight: bold;
     color: #e06c9f;
