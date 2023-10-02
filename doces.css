@@ -98,3 +98,9 @@ footer {
   height: 8rem;
   margin-top: 50px;
 }
+
+@media(max-width:48rem) {
+  .col {
+  width: 100%;
+  }
+}
