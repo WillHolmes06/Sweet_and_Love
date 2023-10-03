@@ -36,9 +36,11 @@ body{
   }
 
 .container{
-  max-width: 86.25rem;
+  /* max-width: 200.25rem;
   margin: 0 auto;
-  padding: 0 4%;
+  padding: 0 4%; */
+  display: flex;
+  align-items: center;
 }
 
 h3{
@@ -141,8 +143,9 @@ footer {
 }
 
 @media(max-width:1400px)  {
-    .col {
-    font-size: 2em;
+    .container {
+    display: flex;
+    align-items: center;
     }
 }
 
