@@ -2,12 +2,8 @@
   margin: 0;
 }
 
-<<<<<<< HEAD
-  header{
-=======
 header {
-  font-family: 'Croissant One', cursive;
->>>>>>> b3c8eb4f7730875a89558941b96cda049dce31e1
+  font-family: "Croissant One", cursive;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   justify-items: center;
@@ -18,7 +14,6 @@ header {
   border-bottom: 2px solid black;
 }
 
-<<<<<<< HEAD
 
 
 .a {
@@ -169,8 +164,6 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
-=======
->>>>>>> b3c8eb4f7730875a89558941b96cda049dce31e1
 
 #logonav {
   width: 6em;
@@ -204,16 +197,13 @@ body {
 
 
 .container{
-<<<<<<< HEAD
   width: 100%;
   padding-right: 10%;
-=======
   max-width: 86.25rem;
   margin: auto;
   padding: 4%;
   display: flex;
   align-items: center;
->>>>>>> b3c8eb4f7730875a89558941b96cda049dce31e1
 }
 
 h3 {
@@ -248,7 +238,7 @@ form{
     width: 100%;
     border: 0;
     border-bottom: 2px solid #ccc;
-    padding: 0.5rem
+    padding: 0.5rem;
     font-size: 1.5rem;
     outline: 0rem;
 }
@@ -307,8 +297,6 @@ footer {
   height: 8rem;
   margin-top: 50px;
 }
-<<<<<<< HEAD
-=======
 
 @media (min-widht:360px)and(max-width: 1024px; ) {
   header {
@@ -323,4 +311,3 @@ footer {
     width: 100%;
   }
   }
->>>>>>> b3c8eb4f7730875a89558941b96cda049dce31e1
