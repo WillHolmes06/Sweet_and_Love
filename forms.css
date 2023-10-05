@@ -4,10 +4,9 @@
 
 <<<<<<< HEAD
   header{
-=======
 header {
   font-family: 'Croissant One', cursive;
->>>>>>> b3c8eb4f7730875a89558941b96cda049dce31e1
+
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   justify-items: center;
