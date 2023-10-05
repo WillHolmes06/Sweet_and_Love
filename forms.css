@@ -1,8 +1,13 @@
 * {
-    margin: 0;
-  }
+  margin: 0;
+}
 
+<<<<<<< HEAD
   header{
+=======
+header {
+  font-family: 'Croissant One', cursive;
+>>>>>>> b3c8eb4f7730875a89558941b96cda049dce31e1
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   justify-items: center;
@@ -10,8 +15,10 @@
   background-color: #000;
   color: #e06c9f;
   height: 8rem;
+  border-bottom: 2px solid black;
 }
 
+<<<<<<< HEAD
 
 
 .a {
@@ -162,35 +169,72 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
+=======
+>>>>>>> b3c8eb4f7730875a89558941b96cda049dce31e1
 
 #logonav {
-    width: 6em;
-  }
-
-.container{
-  width: 100%;
-  padding-right: 10%;
+  width: 6em;
 }
 
-h3{
-    font-family:'Outfit',sans-serif; 
-    font-size: 1.875rem;
+#abc{
+  width: 90%;
+  height: 15rem;
+  text-align: center;
+}
+
+
+.a {
+  text-decoration: none;
+  border: 1px solid #00d9c0;
+  color: #00d9c0;
+  padding: 0.5em;
+}
+
+body {
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  border-left: 1px solid;
+  border-right: 1px solid;
+  font-family: "Outfit", sans-serif;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.container{
+<<<<<<< HEAD
+  width: 100%;
+  padding-right: 10%;
+=======
+  max-width: 86.25rem;
+  margin: auto;
+  padding: 4%;
+  display: flex;
+  align-items: center;
+>>>>>>> b3c8eb4f7730875a89558941b96cda049dce31e1
+}
+
+h3 {
+  font-family: "Outfit", sans-serif;
+  font-size: 1.875rem;
 }
 
 form{
     background-color: pink;
-    max-width: 62.5rem;
-    width: 250rem ;
-    height: 150rem;
-    padding: 3.75rem;
-    margin: 11.25rem;
-    border-radius: 0.9375;
+    max-width: 75%;
+    
+    height: 30%;
+    padding: 10%;
+    margin:2%;
+    border-radius: 30px;
     
 }
 
-.input-single{
-    position: relative;
-    margin: 0.625rem 0rem;
+.input-single {
+  position: relative;
+  margin: 0.625rem 0rem;
 }
 
 .input-single label{
@@ -205,39 +249,38 @@ form{
     border: 0;
     border-bottom: 2px solid #ccc;
     padding: 0.5rem
-    font-size 1.5rem;
+    font-size: 1.5rem;
     outline: 0rem;
-}
-
-form .input-single .input:focus ~ label
-form .input-single .input:valid ~ label{
-    transform: translateY(-11.875rem);
-    font-size: 1rem;
 }
 
 label{
     font-size: 1.5em;
 }
 
-p{
-    font-size: 1.5em;
+p {
+  font-size: 1.5em;
 }
 
-#abc{
-    margin-left: 0.625rem;
+#abc {
+  margin-left: 0.625rem;
 }
-.bnt{
-    width: 6.25rem;
-    text-align: center;
+.bnt {
+  width: 6.25rem;
+  text-align: center;
 }
-form input[type=submit]{
-    text-align: center;
-    padding: 0.625rem 2.5rem;
-    border: 0;
-    border-radius: 10px;
-    background-color: #00D9C0;
-    color: #fff;
-    cursor: pointer;
+form input[type="submit"] {
+  text-align: center;
+  padding: 0.625rem 2.5rem;
+  border: 0;
+  border-radius: 10px;
+  background-color: #00d9c0;
+  color: #fff;
+  cursor: pointer;
+}
+
+textarea{
+    border-radius: 10%;
+    
 }
 
 #cabecalho-titulo,
@@ -245,10 +288,10 @@ form input[type=submit]{
   font-size: 2.2em;
 }
 
-#footer-div{
-    display: flex;
-    flex-wrap: wrap;
-    width: 20%;
+#footer-div {
+  display: flex;
+  flex-wrap: wrap;
+  width: 20%;
 }
 
 footer {
@@ -257,9 +300,27 @@ footer {
   justify-content: space-around;
   align-items: center;
   background-color: #000;
+  border-top: 2px solid #000;
   border-bottom: 2px solid #000;
   font-weight: bold;
   color: #e06c9f;
   height: 8rem;
   margin-top: 50px;
 }
+<<<<<<< HEAD
+=======
+
+@media (min-widht:360px)and(max-width: 1024px; ) {
+  header {
+    widht: 100%;
+    
+  }
+  body{
+    widht: 100%;
+  }
+
+  .font{
+    width: 100%;
+  }
+  }
+>>>>>>> b3c8eb4f7730875a89558941b96cda049dce31e1

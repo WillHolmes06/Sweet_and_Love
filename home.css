@@ -8,6 +8,7 @@ body {
   width: 80%;
   border-left: 1px solid black;
   border-right: 1px solid black;
+  border-bottom: 2px solid black;
 }
 header {
   display: grid;
@@ -25,11 +26,17 @@ header {
 
 .a {
   text-decoration: none;
+<<<<<<< HEAD
   border: 1px solid #00d9c0;
   color: #00d9c0;
   padding:0.5em;
   font-size: 0.7em;
   margin: 0.1em;
+=======
+  border: 1px solid #00D9C0;
+  color: #00D9C0;
+  padding: 0.5em
+>>>>>>> b3c8eb4f7730875a89558941b96cda049dce31e1
 }
 
 .b {
@@ -213,6 +220,7 @@ footer {
     justify-content: space-around;
     align-items: center;
     background-color: #000;
+    border-top: 2px solid #000;
     border-bottom: 2px solid #000;
     font-weight: bold;
     color: #e06c9f;
