@@ -33,7 +33,136 @@ header {
   text-decoration: none;
   border: 1px solid #00d9c0;
   color: #00d9c0;
-  padding: 0.5em;
+  padding:0.5em;
+  font-size: 0.7em;
+  margin: 0.1em;
+}
+
+.b {
+  text-decoration: none;
+  border: 1px solid #00d9c0;
+  color: #00d9c0;
+  padding:0.5em;
+  font-size: 0.7em;
+  margin: 0.1em;
+}
+
+.c {
+  text-decoration: none;
+  border: 1px solid #00d9c0;
+  color: #00d9c0;
+  padding:0.5em;
+  font-size: 0.7em;
+  margin: 0.1em;
+}
+
+.d {
+  text-decoration: none;
+  border: 1px solid #00d9c0;
+  color: #00d9c0;
+  padding:0.5em;
+  font-size: 0.7em;
+  margin: 0.1em;
+}
+
+@media(min-width:721px) {
+  .container1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 0.1em;
+  }
+
+  .a {
+    font-size: 0.8em;
+    margin: 0.1em;
+  }
+
+  .b {
+    font-size: 0.8em;
+    margin: 0.1em;
+
+  }
+
+  .c {
+    font-size: 0.8em;
+    margin: 0.1em;
+
+  }
+
+  .d {
+    font-size: 0.8em;
+    margin: 0.1em;
+
+  }
+
+}
+
+@media (max-width:720px) {
+
+  .container1 { 
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    
+  }
+
+  .a {
+    font-size: 0.7em;
+    margin: 0.1em;
+  }
+
+  .b {
+    font-size: 0.7em;
+    margin: 0.1em;
+
+  }
+
+  .c {
+    font-size: 0.7em;
+    margin: 0.1em;
+
+  }
+
+  .d {
+    font-size: 0.7em;
+    margin: 0.1em;
+
+  }
+  
+}
+
+@media (min-width:1024px) {
+  .container1 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    
+  }
+
+  .a {
+    font-size: 1em;
+    margin: 0.1em;
+  }
+
+  .b {
+    font-size: 1em;
+    margin: 0.1em;
+
+  }
+
+  .c {
+    font-size: 1em;
+    margin: 0.1em;
+
+  }
+
+  .d {
+    font-size: 1em;
+    margin: 0.1em;
+
+  }
+  
 }
 
 #imgsalgado  {
@@ -41,10 +170,27 @@ header {
   height: 15rem;
 }
 
-#imagemdemo {
-  width: 15rem;
-  height: 15rem;
-  border-radius: 25%;
+
+
+.imagem-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 15px;
+  width: 300px; /* Largura da área da imagem */
+  height: 100%; /* Altura da área da imagem */
+}
+
+.imagem {
+  width: 100%; /* Garante que a imagem ocupa 100% da largura do contêiner */
+  height: auto; /* Mantém a proporção da imagem */
+  transition: transform 0.3s ease;
+  width: 10em;
+  height: 10em;
+  border-radius: 15%; /* Adiciona uma transição suave para o efeito hover */
+}
+
+.imagem:hover {
+  transform: scale(1.2); /* Aumenta o tamanho da imagem em 20% quando o cursor passa sobre ela */
 }
 
 #footer-div {
