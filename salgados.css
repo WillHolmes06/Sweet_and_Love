@@ -1,0 +1,237 @@
+* {
+  margin: 0;
+}
+
+section {
+  margin: 30px;
+  padding: 30px;
+}
+
+body {
+  font-family: "Croissant One", cursive;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  border-left: 1px solid;
+  border-right: 1px solid;
+}
+
+header {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  align-items: center;
+  background-color: #000;
+  border-bottom: 2px solid black;
+  color: #e06c9f;
+  height: 8rem;
+}
+
+#cabecalho-titulo,
+#footer-titulo {
+  font-size: 2.2em;
+}
+
+#logonav {
+  width: 6em;
+}
+
+.a {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  border: 1px solid #00d9c0;
+  color: #fff;
+  background-color: #00d9c0;
+  border-radius: 10%;
+  padding:0.5em;
+  font-size: 0.7em;
+  margin: 0.1em;
+}
+
+.b {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  border: 1px solid #00d9c0;
+  color: #fff;
+  background-color: #00d9c0;
+  border-radius: 10%;
+  padding:0.5em;
+  font-size: 0.7em;
+  margin: 0.1em;
+}
+
+.c {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  border: 1px solid #00d9c0;
+  color: #fff;
+  background-color: #00d9c0;
+  border-radius: 10%;
+  padding:0.5em;
+  font-size: 0.7em;
+  margin: 0.1em;
+}
+
+.d {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  border: 1px solid #00d9c0;
+  color: #fff;
+  background-color: #00d9c0;
+  border-radius: 10%;
+  padding:0.5em;
+  font-size: 0.7em;
+  margin: 0.1em;
+}
+
+@media(min-width:721px) {
+  .container1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 0.1em;
+  }
+
+  .a {
+    font-size: 0.8em;
+    margin: 0.1em;
+  }
+
+  .b {
+    font-size: 0.8em;
+    margin: 0.1em;
+
+  }
+
+  .c {
+    font-size: 0.8em;
+    margin: 0.1em;
+
+  }
+
+  .d {
+    font-size: 0.8em;
+    margin: 0.1em;
+
+  }
+
+}
+
+@media (max-width:720px) {
+
+  .container1 { 
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    
+  }
+
+  .a {
+    font-size: 0.7em;
+    margin: 0.1em;
+  }
+
+  .b {
+    font-size: 0.7em;
+    margin: 0.1em;
+
+  }
+
+  .c {
+    font-size: 0.7em;
+    margin: 0.1em;
+
+  }
+
+  .d {
+    font-size: 0.7em;
+    margin: 0.1em;
+
+  }
+  
+}
+
+@media (min-width:1024px) {
+  .container1 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    
+  }
+
+  .a {
+    font-size: 1em;
+    margin: 0.1em;
+  }
+
+  .b {
+    font-size: 1em;
+    margin: 0.1em;
+
+  }
+
+  .c {
+    font-size: 1em;
+    margin: 0.1em;
+
+  }
+
+  .d {
+    font-size: 1em;
+    margin: 0.1em;
+
+  }
+  
+}
+
+#imgsalgado  {
+  width: 100%;
+  height: 15rem;
+}
+
+
+
+.imagem-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 15px;
+  width: 300px; /* Largura da área da imagem */
+  height: 100%; /* Altura da área da imagem */
+}
+
+.imagem {
+  width: 100%; /* Garante que a imagem ocupa 100% da largura do contêiner */
+  height: auto; /* Mantém a proporção da imagem */
+  transition: transform 0.3s ease;
+  width: 10em;
+  height: 10em;
+  border-radius: 15%; /* Adiciona uma transição suave para o efeito hover */
+}
+
+.imagem:hover {
+  transform: scale(1.2); /* Aumenta o tamanho da imagem em 20% quando o cursor passa sobre ela */
+}
+
+#footer-div {
+  display: flex;
+  flex-wrap: wrap;
+  width: 20%;
+}
+
+footer {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #000;
+  border-top: 2px solid #000;
+  border-bottom: 2px solid #000;
+  font-weight: bold;
+  color: #e06c9f;
+  height: 8rem;
+  margin-top: 50px;
+}
