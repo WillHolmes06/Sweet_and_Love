@@ -25,18 +25,18 @@ header {
 }
 
 .a {
+
   text-decoration: none;
-<<<<<<< HEAD
   border: 1px solid #00d9c0;
   color: #00d9c0;
   padding:0.5em;
   font-size: 0.7em;
   margin: 0.1em;
-=======
+
   border: 1px solid #00D9C0;
   color: #00D9C0;
-  padding: 0.5em
->>>>>>> b3c8eb4f7730875a89558941b96cda049dce31e1
+  padding: 0.5em;
+
 }
 
 .b {
@@ -181,33 +181,45 @@ header {
 }
 #l1{
     list-style: none;
-   padding-right: 5rem;
+   padding-right: 15rem;
+   
 }
 #l2 {
 
     list-style: none;
-    margin-left: 15rem;
+    /* margin-left: 5rem; */
 }
 #imghome {
     width: 100%;
     height: 15rem;
 }
-#sec {
+.sec {
     display: flex;
     justify-content: space-around;
     margin-top: 2rem;
 }
-#salgado{
-    border-radius: 10%;
-    height: 10em;
-    width: 15em;
+.salgado{
+  width: 100%; /* Garante que a imagem ocupa 100% da largura do contêiner */
+  height: auto; /* Mantém a proporção da imagem */
+  transition: transform 0.3s ease;
+  width: 14em;
+  height: 10em;
+  border-radius: 15%; /* Adiciona uma transição suave para o efeito hover */
+    
 }
-#homesec {
-    border-radius: 10%;
-    height: 10em;
-    width: 15em;
+.doce{
+  width: 100%; /* Garante que a imagem ocupa 100% da largura do contêiner */
+  height: auto; /* Mantém a proporção da imagem */
+  transition: transform 0.3s ease;
+  width: 14em;
+  height: 10em;
+  border-radius: 15%; /* Adiciona uma transição suave para o efeito hover */
+    
     /* height: 20%;
     width: 20%; */
+}
+.imagem:hover {
+  transform: scale(1.1); /* Aumenta o tamanho da imagem em 20% quando o cursor passa sobre ela */
 }
 #footer-div {
     display: flex;
