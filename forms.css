@@ -3,7 +3,7 @@
 }
 
 
-  header {
+header {
   font-family: 'Croissant One', cursive;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -20,159 +20,176 @@
 
 
 .a {
-    text-decoration: none;
-    border: 1px solid #00d9c0;
-    color: #00d9c0;
-    padding:0.5em;
-    font-size: 0.7em;
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  border: 1px solid #00d9c0;
+  color: #fff;
+  background-color: #00d9c0;
+  border-radius: 10%;
+  padding:0.5em;
+  font-size: 0.7em;
+  margin: 0.1em;
+}
+
+.b {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  border: 1px solid #00d9c0;
+  color: #fff;
+  background-color: #00d9c0;
+  border-radius: 10%;
+  padding:0.5em;
+  font-size: 0.7em;
+  margin: 0.1em;
+}
+
+.c {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  border: 1px solid #00d9c0;
+  color: #fff;
+  background-color: #00d9c0;
+  border-radius: 10%;
+  padding:0.5em;
+  font-size: 0.7em;
+  margin: 0.1em;
+}
+
+.d {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  border: 1px solid #00d9c0;
+  color: #fff;
+  background-color: #00d9c0;
+  border-radius: 10%;
+  padding:0.5em;
+  font-size: 0.7em;
+  margin: 0.1em;
+}
+
+@media(min-width:721px) {
+  .container1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 0.1em;
+
+  }
+
+  .a {
+    font-size: 0.8em;
     margin: 0.1em;
   }
-  
+
   .b {
-    text-decoration: none;
-    border: 1px solid #00d9c0;
-    color: #00d9c0;
-    padding:0.5em;
-    font-size: 0.7em;
+    font-size: 0.8em;
     margin: 0.1em;
+
   }
-  
+
   .c {
-    text-decoration: none;
-    border: 1px solid #00d9c0;
-    color: #00d9c0;
-    padding:0.5em;
-    font-size: 0.7em;
+    font-size: 0.8em;
     margin: 0.1em;
+
   }
-  
+
   .d {
-    text-decoration: none;
-    border: 1px solid #00d9c0;
-    color: #00d9c0;
-    padding:0.5em;
+    font-size: 0.8em;
+    margin: 0.1em;
+
+  }
+
+}
+
+@media (max-width:720px) {
+  .container1 {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+
+  }
+
+  .a {
     font-size: 0.7em;
     margin: 0.1em;
   }
 
-  @media(min-width:721px) {
-    .container1 {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      grid-template-rows: repeat(2, 1fr);
-      grid-gap: 0.1em;
-  
-    }
-    .a {
-      font-size: 0.8em;
-      margin: 0.1em;
-    }
-  
-    .b {
-      font-size: 0.8em;
-      margin: 0.1em;
-  
-    }
-  
-    .c {
-      font-size: 0.8em;
-      margin: 0.1em;
-  
-    }
-  
-    .d {
-      font-size: 0.8em;
-      margin: 0.1em;
-  
-    }
-  
+  .b {
+    font-size: 0.7em;
+    margin: 0.1em;
+
   }
 
-  @media (max-width:720px) {
-    .container1 {
-      display: grid;
-      grid-template-columns: repeat(1, 1fr);
-      grid-template-rows: repeat(4, 1fr);
-      
-    }
-  
-    .a {
-      font-size: 0.7em;
-      margin: 0.1em;
-    }
-  
-    .b {
-      font-size: 0.7em;
-      margin: 0.1em;
-  
-    }
-  
-    .c {
-      font-size: 0.7em;
-      margin: 0.1em;
-  
-    }
-  
-    .d {
-      font-size: 0.7em;
-      margin: 0.1em;
-  
-    }
-    
+  .c {
+    font-size: 0.7em;
+    margin: 0.1em;
+
   }
-  
-  
-  
-  @media (min-width:1024px) {
-    .container1 {
-      display: grid;
-      grid-template-columns: repeat(4, 1fr);
-      grid-template-rows: repeat(1, 1fr);
-      
-    }
-  
-    .a {
-      font-size: 1em;
-      margin: 0.1em;
-    }
-  
-    .b {
-      font-size: 1em;
-      margin: 0.1em;
-  
-    }
-  
-    .c {
-      font-size: 1em;
-      margin: 0.1em;
-  
-    }
-  
-    .d {
-      font-size: 1em;
-      margin: 0.1em;
-  
-    }
-    
+
+  .d {
+    font-size: 0.7em;
+    margin: 0.1em;
+
   }
-  
-body{
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;
-    border-left: 1px solid;
-    border-right: 1px solid;
-    font-family: 'Outfit',sans-serif;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+
+}
+
+
+
+@media (min-width:1024px) {
+  .container1 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+
+  }
+
+  .a {
+    font-size: 1em;
+    margin: 0.1em;
+  }
+
+  .b {
+    font-size: 1em;
+    margin: 0.1em;
+
+  }
+
+  .c {
+    font-size: 1em;
+    margin: 0.1em;
+
+  }
+
+  .d {
+    font-size: 1em;
+    margin: 0.1em;
+
+  }
+
+}
+
+body {
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  border-left: 1px solid;
+  border-right: 1px solid;
+  font-family: 'Outfit', sans-serif;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #logonav {
   width: 6em;
 }
 
-#abc{
+#abc {
   width: 90%;
   height: 15rem;
   text-align: center;
@@ -182,7 +199,7 @@ body{
 .a {
   text-decoration: none;
   border: 1px solid #00d9c0;
-  color: #00d9c0;
+  color: #fff;
   padding: 0.5em;
 }
 
@@ -199,7 +216,7 @@ body {
 }
 
 
-.container{
+.container {
   width: 100%;
   padding-right: 10%;
   max-width: 86.25rem;
@@ -214,15 +231,15 @@ h3 {
   font-size: 1.875rem;
 }
 
-form{
-    background-color: pink;
-    max-width: 75%;
-    
-    height: 30%;
-    padding: 10%;
-    margin:2%;
-    border-radius: 30px;
-    
+form {
+  background-color: pink;
+  max-width: 75%;
+
+  height: 30%;
+  padding: 10%;
+  margin: 2%;
+  border-radius: 30px;
+
 }
 
 .input-single {
@@ -230,24 +247,25 @@ form{
   margin: 0.625rem 0rem;
 }
 
-.input-single label{
-    position: absolute;
-    left: 0;
-    bottom: 0.3125;
-    
-    cursor: text;
-}
-.input{
-    width: 100%;
-    border: 0;
-    border-bottom: 2px solid #ccc;
-    padding: 0.5rem;
-    font-size: 1.5rem;
-    outline: 0rem;
+.input-single label {
+  position: absolute;
+  left: 0;
+  bottom: 0.3125;
+
+  cursor: text;
 }
 
-label{
-    font-size: 1.5em;
+.input {
+  width: 100%;
+  border: 0;
+  border-bottom: 2px solid #ccc;
+  padding: 0.5rem;
+  font-size: 1.5rem;
+  outline: 0rem;
+}
+
+label {
+  font-size: 1.5em;
 }
 
 p {
@@ -257,10 +275,12 @@ p {
 #abc {
   margin-left: 0.625rem;
 }
+
 .bnt {
   width: 6.25rem;
   text-align: center;
 }
+
 form input[type="submit"] {
   text-align: center;
   padding: 0.625rem 2.5rem;
@@ -271,9 +291,9 @@ form input[type="submit"] {
   cursor: pointer;
 }
 
-textarea{
-    border-radius: 10%;
-    
+textarea {
+  border-radius: 10%;
+
 }
 
 #cabecalho-titulo,
@@ -304,13 +324,14 @@ footer {
 @media (min-widht:360px)and(max-width: 1024px) {
   header {
     width: 100%;
-    
+
   }
-  body{
+
+  body {
     width: 100%;
   }
 
-  .font{
+  .font {
     width: 100%;
   }
-  }
+}

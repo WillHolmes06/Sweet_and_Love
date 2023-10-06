@@ -20,47 +20,63 @@ header {
   height: 8rem;
   border-bottom: 2px solid black;
 }
+
+#cabecalho-titulo,
+#footer-titulo {
+  font-size: 2.2em;
+}
+
 #imgnav {
   width: 6rem;
 }
 
 .a {
-
+  display: flex;
+  justify-content: center;
   text-decoration: none;
   border: 1px solid #00d9c0;
-  color: #00d9c0;
+  color: #fff;
+  background-color: #00d9c0;
+  border-radius: 10%;
   padding:0.5em;
   font-size: 0.7em;
   margin: 0.1em;
-
-  border: 1px solid #00D9C0;
-  color: #00D9C0;
-  padding: 0.5em;
-
 }
 
 .b {
+  display: flex;
+  justify-content: center;
   text-decoration: none;
   border: 1px solid #00d9c0;
-  color: #00d9c0;
+  color: #fff;
+  background-color: #00d9c0;
+  border-radius: 10%;
   padding:0.5em;
   font-size: 0.7em;
   margin: 0.1em;
 }
 
 .c {
+  display: flex;
+  justify-content: center;
   text-decoration: none;
   border: 1px solid #00d9c0;
-  color: #00d9c0;
+  color: #fff;
+  background-color: #00d9c0;
+  border-radius: 10%;
   padding:0.5em;
   font-size: 0.7em;
   margin: 0.1em;
 }
 
 .d {
+  display: flex;
+  justify-content: center;
   text-decoration: none;
   border: 1px solid #00d9c0;
-  color: #00d9c0;
+  color: #fff;
+  background-color: #00d9c0;
+  border-radius: 10%;
   padding:0.5em;
   font-size: 0.7em;
   margin: 0.1em;
