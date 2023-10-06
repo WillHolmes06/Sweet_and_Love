@@ -2,8 +2,9 @@
   margin: 0;
 }
 
-header {
-  font-family: "Croissant One", cursive;
+
+  header {
+  font-family: 'Croissant One', cursive;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   justify-items: center;
@@ -298,13 +299,13 @@ footer {
   margin-top: 50px;
 }
 
-@media (min-widht:360px)and(max-width: 1024px; ) {
+@media (min-widht:360px)and(max-width: 1024px) {
   header {
-    widht: 100%;
+    width: 100%;
     
   }
   body{
-    widht: 100%;
+    width: 100%;
   }
 
   .font{
